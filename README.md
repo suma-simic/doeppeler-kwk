@@ -2,17 +2,17 @@
 
 **Kunde:** Döppeler GmbH
 **Domain:** www.doeppeler.com
-**CMS:** WordPress (bestehende Kundeninstanz)
+**CMS:** Contao (bestehende Kundeninstanz)
 **Datum:** 23.03.2026
 
 ---
 
 ## Auftrag
 
-Es sollen **4 Unterseiten** in der bestehenden WordPress-Instanz angelegt und eingerichtet werden.
+Es sollen **4 Unterseiten** in der bestehenden Contao-Instanz angelegt und eingerichtet werden.
 Jede Seite bekommt spezifischen Text-Content und ein JavaScript-Snippet, das als HTML/Script-Block eingebunden wird.
 
-Die Scripts liegen im Ordner [`/scripts/`](./scripts/) und werden auf der jeweiligen Seite **per Custom HTML Block** (oder Theme-Script-Einbindung) eingebettet.
+Die Scripts liegen im Ordner [`/scripts/`](./scripts/) und werden auf der jeweiligen Seite **per HTML-Inhaltselement** (oder Theme-Script-Einbindung) eingebettet.
 
 ---
 
@@ -33,7 +33,7 @@ Die Scripts liegen im Ordner [`/scripts/`](./scripts/) und werden auf der jeweil
 - **Auto-Resize:** Jedes Script enthält einen `postMessage`-Listener, der die iFrame-Höhe automatisch an den Inhalt anpasst.
 - **Tracking:** UTM-Parameter (`utm_source`, `utm_medium`, `utm_campaign`) werden automatisch an die Zoho-Form-URLs angehängt.
 - **KWK-Token:** Die Scripts generieren eindeutige Tracking-Tokens (Format: `TXN-YYYYMMDD-...` bzw. `REF-xxxxx|timestamp`), die der Zuordnung von Empfehlungen dienen.
-- **Einbindung:** Jedes Script ist ein vollständiger HTML/JS-Block (`<div>` + `<script>`). In WordPress am besten als **Custom HTML Block** in den Seiten-Editor einfügen.
+- **Einbindung:** Jedes Script ist ein vollständiger HTML/JS-Block (`<div>` + `<script>`). In Contao am besten als **HTML-Inhaltselement** in den Seiten-Editor einfügen.
 
 ---
 

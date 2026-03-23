@@ -1,6 +1,6 @@
 # Seite 2: /empfehlung/
 
-**WordPress-URL:** `www.doeppeler.com/empfehlung/`
+**Contao-URL:** `www.doeppeler.com/empfehlung/`
 **Script:** [`/scripts/empfehlung.js`](../scripts/empfehlung.js)
 **Zweck:** Persönliche Empfehlungsseite für Bestandskunden. Zeigt einen individuellen Empfehlungslink mit Share-Buttons (E-Mail, Gmail, WhatsApp, Kopieren).
 
@@ -34,7 +34,7 @@ Das Script liest diese Parameter aus und personalisiert die Seite automatisch.
 
 ### Block 2: Script-Einbindung (Share-Box)
 
-Hier den kompletten Inhalt von [`/scripts/empfehlung.js`](../scripts/empfehlung.js) als **Custom HTML Block** einfügen.
+Hier den kompletten Inhalt von [`/scripts/empfehlung.js`](../scripts/empfehlung.js) als **HTML-Inhaltselement** einfügen.
 
 Das Script erzeugt automatisch:
 - Persönliche Begrüßung ("Hallo Max Mustermann, ...")

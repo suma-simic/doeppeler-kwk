@@ -1,6 +1,6 @@
 # Seite 3: /empfehlung-direkt/
 
-**WordPress-URL:** `www.doeppeler.com/empfehlung-direkt/`
+**Contao-URL:** `www.doeppeler.com/empfehlung-direkt/`
 **Script:** [`/scripts/empfehlung-direkt.js`](../scripts/empfehlung-direkt.js)
 **Zweck:** Alternative Empfehlungsseite -- der Empfehler trägt direkt die Daten der empfohlenen Person ein (statt einen Link zu teilen).
 
@@ -33,7 +33,7 @@ Das Script akzeptiert die Ref-ID sowohl als Query-Parameter (`?ref=`) als auch a
 
 ### Block 2: Script-Einbindung (Formular)
 
-Hier den kompletten Inhalt von [`/scripts/empfehlung-direkt.js`](../scripts/empfehlung-direkt.js) als **Custom HTML Block** einfügen.
+Hier den kompletten Inhalt von [`/scripts/empfehlung-direkt.js`](../scripts/empfehlung-direkt.js) als **HTML-Inhaltselement** einfügen.
 
 Das Script enthält bereits:
 - Einleitungstext: "Bitte tragen Sie hier die Person ein, die Sie empfehlen möchten."
@@ -44,7 +44,7 @@ Das Script enthält bereits:
 - UTM-Tracking (`utm_source=referral`, `utm_campaign=empfehlung_direkt`)
 - Auto-Resize per `postMessage`
 
-> **Hinweis an Agentur:** Dieses Script enthält den gesamten Seiteninhalt (Text + Formular). Es muss nur die H1-Überschrift separat als WordPress-Block gesetzt werden, der Rest kommt aus dem Script.
+> **Hinweis an Agentur:** Dieses Script enthält den gesamten Seiteninhalt (Text + Formular). Es muss nur die H1-Überschrift separat als Contao-Inhaltselement gesetzt werden, der Rest kommt aus dem Script.
 
 ---
 

@@ -1,6 +1,6 @@
 # Seite 1: /kunden-werben-kunden
 
-**WordPress-URL:** `www.doeppeler.com/kunden-werben-kunden`
+**Contao-URL:** `www.doeppeler.com/kunden-werben-kunden`
 **Script:** [`/scripts/kunden-werben-kunden.js`](../scripts/kunden-werben-kunden.js)
 **Zweck:** Hauptseite des Empfehlungsprogramms. Bestandskunden tragen hier ihre eigenen Daten und die Daten der empfohlenen Person ein.
 
@@ -28,7 +28,7 @@ Die Seite besteht aus 5 Blöcken, die in exakt dieser Reihenfolge untereinander 
 
 ### Block 2: Formular (Script-Einbindung)
 
-Hier den kompletten Inhalt von [`/scripts/kunden-werben-kunden.js`](../scripts/kunden-werben-kunden.js) als **Custom HTML Block** einfügen.
+Hier den kompletten Inhalt von [`/scripts/kunden-werben-kunden.js`](../scripts/kunden-werben-kunden.js) als **HTML-Inhaltselement** einfügen.
 
 Das Script erzeugt automatisch einen Zoho Forms iFrame mit:
 - Formular "Kundenempfehlung Homepage 1"

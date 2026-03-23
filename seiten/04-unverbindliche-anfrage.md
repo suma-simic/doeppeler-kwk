@@ -1,6 +1,6 @@
 # Seite 4: /unverbindliche-anfrage/
 
-**WordPress-URL:** `www.doeppeler.com/unverbindliche-anfrage/`
+**Contao-URL:** `www.doeppeler.com/unverbindliche-anfrage/`
 **Script:** [`/scripts/unverbindliche-anfrage.js`](../scripts/unverbindliche-anfrage.js)
 **Zweck:** Landingpage für empfohlene Interessenten. Sie kommen hierher über den Empfehlungslink und füllen ein Anfrageformular aus.
 
@@ -32,7 +32,7 @@ URL-Parameter:
 
 ### Block 2: Script-Einbindung (Formular)
 
-Hier den kompletten Inhalt von [`/scripts/unverbindliche-anfrage.js`](../scripts/unverbindliche-anfrage.js) als **Custom HTML Block** einfügen.
+Hier den kompletten Inhalt von [`/scripts/unverbindliche-anfrage.js`](../scripts/unverbindliche-anfrage.js) als **HTML-Inhaltselement** einfügen.
 
 Das Script enthält bereits:
 - Einleitungstext: "Bitte füllen Sie das Formular kurz aus -- wir melden uns zeitnah bei Ihnen."
@@ -43,7 +43,7 @@ Das Script enthält bereits:
 - UTM-Tracking (`utm_source=referral`, `utm_campaign=unverbindliche_anfrage`, Medium je nach `?m=` Parameter)
 - Auto-Resize per `postMessage`
 
-> **Hinweis an Agentur:** Dieses Script enthält den gesamten Seiteninhalt (Text + Formular). Es muss nur die H1-Überschrift separat als WordPress-Block gesetzt werden, der Rest kommt aus dem Script.
+> **Hinweis an Agentur:** Dieses Script enthält den gesamten Seiteninhalt (Text + Formular). Es muss nur die H1-Überschrift separat als Contao-Inhaltselement gesetzt werden, der Rest kommt aus dem Script.
 
 ---
 
